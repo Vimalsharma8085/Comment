@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mini Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="why-us.html">Why Us</a></li>
+                <li><a href="frontend-challenge.html">Frontend Mini Challenge</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Frontend Challenge Content -->
+    <div id="challengeContent">
+        <h1>Frontend Mini Challenge</h1>
+        <p>This is a simple frontend challenge to demonstrate various techniques in web development. The task is to create a comment section that allows users to add, edit, delete, and reply to comments.</p>
+        
+        <!-- Interactive Code Editor Section -->
+        <h2>Try Your Own HTML Code Below</h2>
+        <p>Write some HTML code in the editor below to see how it looks in the output section. This will help you practice your HTML skills.</p>
+
+        <!-- Code Editor and Output Section -->
+        <div class="code-editor-container">
+            <textarea id="htmlEditor" placeholder="Write your HTML code here..."></textarea>
+            <button id="runCodeBtn">Run Code</button>
+        </div>
+        <h3>Output:</h3>
+        <div id="output"></div>
+
+        <!-- Tips for Frontend Development -->
+        <h2>Frontend Development Tips</h2>
+        <ul>
+            <li><strong>Start with HTML:</strong> Make sure your content is well-structured using HTML tags before adding styling.</li>
+            <li><strong>Use CSS for Styling:</strong> Use CSS to make your page visually appealing and responsive across different devices.</li>
+            <li><strong>Learn JavaScript:</strong> JavaScript helps make your website interactive by adding dynamic behaviors like forms, animations, etc.</li>
+            <li><strong>Use Developer Tools:</strong> Explore browser developer tools to debug your code and optimize performance.</li>
+        </ul>
+
+        <!-- Link to Additional Resources -->
+        <h2>Learn More</h2>
+        <p>Here are some resources to help you improve your frontend skills:</p>
+        <ul>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML Documentation (MDN)</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS Documentation (MDN)</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript Documentation (MDN)</a></li>
+        </ul>
+
+    </div>
+
+    <script src="script.js"></script>
+
+    <script>
+        // Code Editor functionality: allows the user to run HTML code and display the output dynamically
+        const runCodeBtn = document.getElementById('runCodeBtn');
+        const htmlEditor = document.getElementById('htmlEditor');
+        const output = document.getElementById('output');
+
+        runCodeBtn.addEventListener('click', function() {
+            const userCode = htmlEditor.value.trim();
+            if (userCode) {
+                output.innerHTML = userCode; // Insert the user's HTML code into the output div
+            } else {
+                output.innerHTML = '<p>Please write some HTML code!</p>';
+            }
+        });
+    </script>
+</body>
+</html>

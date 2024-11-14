@@ -1,0 +1,251 @@
+/* 
+.comment {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.reply {
+    background-color: #f1f1f1;
+    margin-left: 20px;
+    border-left: 4px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+} */
+
+
+/* Basic reset and box sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Main content styling */
+#mainContent, #whyUsContent, #challengeContent {
+    margin-top: 20px;
+}
+
+/* Comment Section Styling */
+#newComment {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#addCommentBtn {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#addCommentBtn:hover {
+    background-color: #45a049;
+}
+
+#commentSection {
+    margin-top: 20px;
+}
+
+.comment {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.comment .flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment p {
+    margin-right: 10px;
+}
+
+/* Quiz Section */
+#quizSection {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.quizBtn {
+    margin-top: 5px;
+    padding: 8px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.quizBtn:hover {
+    background-color: #e0e0e0;
+}
+
+/* Quiz Result */
+#quizResult {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Styling for the code editor */
+.code-editor-container {
+    margin-top: 20px;
+}
+
+#htmlEditor {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-family: monospace;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#runCodeBtn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#runCodeBtn:hover {
+    background-color: #45a049;
+}
+
+/* Styling for the output section */
+#output {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Styling for tips and resources */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Styling for the code editor */
+.code-editor-container {
+    margin-top: 20px;
+}
+
+#htmlEditor {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-family: monospace;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#runCodeBtn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#runCodeBtn:hover {
+    background-color: #45a049;
+}
+
+/* Styling for the output section */
+#output {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Styling for tips and resources */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
